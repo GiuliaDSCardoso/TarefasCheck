@@ -4,13 +4,13 @@ const addTaskButton = document.getElementById('add-task-button'); // Botão de a
 const taskList = document.getElementById('task-list'); // Lista de tarefas
 
 // Função para carregar tarefas do localStorage
+// Função para carregar tarefas do localStorage
 function loadTasks() {
     const tasks = JSON.parse(localStorage.getItem('tasks')) || []; // Obtém as tarefas do localStorage
     tasks.forEach(task => {
         addTask(task.text, task.completed); // Adiciona cada tarefa na lista
     });
 }
-
 // Adiciona um evento de clique ao botão de adicionar tarefa
 addTaskButton.addEventListener('click', function() {
     const taskText = taskInput.value.trim(); // Obtém o texto da tarefa e remove espaços em branco
@@ -104,5 +104,7 @@ taskInput.addEventListener('keypress', function(event) {
     }
 });
 
-// Carrega as tarefas ao iniciar
+
+
+// Chama loadTasks ao iniciar a página
 loadTasks();
