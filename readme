@@ -1,0 +1,24 @@
+# To-Do List
+
+## Descrição
+
+O projeto **To-Do List** é uma aplicação web simples que permite aos usuários adicionar, editar, remover e marcar tarefas como concluídas. O objetivo é ajudar os usuários a organizarem suas tarefas diárias de forma eficiente e intuitiva.
+
+## Funcionalidades
+
+- Adicionar novas tarefas.
+- Editar tarefas existentes.
+- Remover tarefas da lista.
+- Marcar tarefas como concluídas.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Para estruturar o conteúdo da página.
+- **CSS**: Para estilizar a aplicação e torná-la visualmente atraente.
+- **JavaScript**: Para adicionar interatividade, como adicionar, editar e remover tarefas.
+
+## Como Usar
+
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/seu-usuario/todo-list.git
